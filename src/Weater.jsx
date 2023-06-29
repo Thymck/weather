@@ -5,7 +5,7 @@ import Bilder from "./Bilder";
 export default function Weather() {
   const [search, setSearch] = useState("Turkey");
   const [city, setCity] = useState("");
-  const apiKey = "65b50d15bca14d19bfc93211232706";
+  const apiKey = "";
 
   useEffect(() => {
     async function getApi() {

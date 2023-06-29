@@ -9,7 +9,7 @@ const getRandomImageUrl = (arr) => {
 };
 
 export default function Bilder({ city }) {
-  const key = "ZDza7flwO-EJwxuJpdGmUen80y1d0WpPv2AK_SyexdQ";
+  const key = "";
   const [res, setRes] = useState(null);
 
   useEffect(() => {
