@@ -11,7 +11,7 @@ export default function Weather() {
     async function getApi() {
       try {
         const response = await axios.get(
-          `http://api.weatherapi.com/v1/current.json?key=65b50d15bca14d19bfc93211232706&q=${search}&aqi=no`
+          `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${search}&aqi=no`
         );
 
         setCity(response.data);
